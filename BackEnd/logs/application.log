@@ -1,0 +1,13 @@
+2018-11-03 21:03:17,307 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-3 - application.conf @ file:/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/application.conf: 341: user is deprecated, use username instead
+2018-11-03 21:03:17,311 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] initialized at jdbc:mysql://localhost/sssamc
+2018-11-03 21:03:17,321 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2018-11-03 21:03:17,358 [WARN] from com.zaxxer.hikari.util.DriverDataSource in play-dev-mode-akka.actor.default-dispatcher-3 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-11-03 21:03:18,226 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - ApplicationTimer demo: Starting application at 2018-11-03T15:33:18.225Z
+2018-11-03 21:03:18,396 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2018-11-03 21:03:18,709 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)

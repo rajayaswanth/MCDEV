@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/logback.xml,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/application.conf,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/evolutions,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/evolutions/default,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/evolutions/default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/evolutions/default/1.sql,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/evolutions/default/1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/routes,/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/target/scala-2.12/classes/routes)[0m

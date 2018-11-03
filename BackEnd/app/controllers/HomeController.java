@@ -3,8 +3,11 @@ package controllers;
 import java.sql.SQLException;
 import java.util.List;
 
+import com.google.inject.Inject;
+
 import dao.UserDao;
 import models.User;
+import play.db.Database;
 import play.libs.Json;
 import play.mvc.*;
 
@@ -15,8 +18,7 @@ import views.html.*;
  * to the application's home page.
  */
 public class HomeController extends Controller {
-
-	UserDao user= new UserDao();
+	@Inject UserDao user;
     /**
      * An action that renders an HTML page with a welcome message.
      * The configuration in the <code>routes</code> file means that
