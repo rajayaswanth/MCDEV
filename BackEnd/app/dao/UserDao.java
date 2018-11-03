@@ -19,7 +19,7 @@ public class UserDao {
 	public List<User>findAll() throws SQLException{
 		List<User> userList= new ArrayList<>();
 		//String conn= db.getName();
-		System.out.println(db.getUrl());
+		System.out.println(db);
 //		PreparedStatement preparedStatement = conn.prepareStatement("select * from user_master_table;");
 //		preparedStatement.executeQuery();
 //		ResultSet rs= preparedStatement.getResultSet();

@@ -17,8 +17,7 @@ libraryDependencies += "com.h2database" % "h2" % "1.4.197"
 libraryDependencies += "org.assertj" % "assertj-core" % "3.6.2" % Test
 libraryDependencies += "org.awaitility" % "awaitility" % "2.0.0" % Test
 libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.13"
-libraryDependencies += javaJdbc
-libraryDependencies += "com.typesafe.play" %% "play-java-jdbc" % "2.7.0-M4"
+libraryDependencies += jdbc
 
 // Make verbose tests
 testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a", "-v"))
