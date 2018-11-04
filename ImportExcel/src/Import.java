@@ -17,10 +17,9 @@ public class Import {
 		myExcelBook.close(); 
 	}
 
-
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		readFromExcel("C://Users/Dell/Downloads/Medicine_Database.xlsx");
+		readFromExcel("/home/basanta/SSSAMC/MCDEV/ImportExcel/Medicine Database.xlsx");
 	}
 
 }
