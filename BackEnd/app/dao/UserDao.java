@@ -1,27 +1,23 @@
 package dao;
 
-import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.sql.DataSource;
 
 import models.User;
 
 import java.sql.*;
-import play.api.db.*;
-import play.db.Database;
+import utility.DBConnection;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Singleton
 public class UserDao {
-	
-	@Inject Database db;
+	 
 	
 	public List<User>findAll() throws SQLException{
-		Connection conn= DriverManager.getConnection("jdbc:mysql://root:password@localhost/sssamc");
 		List<User> userList= new ArrayList<>();
-		PreparedStatement preparedStatement = conn.prepareStatement("select * from user_master_table;");
+		DBConnection dbconnection= DBConnection.getConnection();
+		PreparedStatement preparedStatement = dbconnection.conn.prepareStatement("select * from user_master_table;");
 		preparedStatement.executeQuery();
 		ResultSet rs= preparedStatement.getResultSet();
 		while(!rs.next());

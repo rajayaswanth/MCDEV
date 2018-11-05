@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/ege/Desktop/SSSAMC/MCDEV/BackEnd/conf/routes
-// @DATE:Sat Nov 03 21:02:20 IST 2018
+// @DATE:Mon Nov 05 22:47:42 IST 2018
 
 package router
 
